@@ -228,7 +228,7 @@ function create ()
 
     CardBG = this.add.image(400, 300, 'card');
     Picture = this.add.image(400, 250, 'picture').setScale(0.1);
-    CardText = this.add.text(280, 300, 'Happy Birthday!\n謝謝妳餵飽了我~我跟小K子最愛你了<3').setFontFamily('Arial').setFontSize(24).setColor('#000000');
+    CardText = this.add.text(280, 350, 'Happy Birthday!\n謝謝妳餵飽了我~\n我跟小K子最愛你了<3').setFontFamily('Arial').setFontSize(24).setColor('#000000');
 }
 
 function respawn() {

@@ -2,7 +2,7 @@ export default class Player {
     constructor(scene, position, anim, dieCallback)
     {       
         this.sprite=scene.physics.add.sprite(position.x, position.y, 'jubo')
-            .setScale(0.07)
+            .setScale(0.03)
             .setOrigin(0.5);
         this.spawnPoint=position;
         // this.anim=anim;        
